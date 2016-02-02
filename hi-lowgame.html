@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="hi_lo_game.js"></script>
+    <title>Hi/Low Game</title>
+  </head>
+  <body>
+    <h1>Hi/Low Game</h1>
+
+    <h2 id="hint">Hint:</h2>
+    <input type="text" id="userGuess"/>
+    <!-- <input type="button" value="Start Game" onlick="playGame()"/> -->
+    <input type="button" value="Guess" id="process" onclick="processGuess(); previousGuesses()"/>
+
+    <p id="guessStorage"></p>
+
+  </body>
+</html>
